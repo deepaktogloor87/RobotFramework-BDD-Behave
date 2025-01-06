@@ -1,0 +1,8 @@
+---
+Name_txtbx: (//input[@placeholder='Name'])[1]
+Email_txtbx: (//input[@placeholder='Email'])[1]
+Subject_txtbx: (//input[@placeholder='Subject'])[1]
+Message_txtbx: (//textarea[@id='message'])[1]
+ChooseFile_btn: //input[@name='upload_file']
+Submit_btn: //input[@value='Submit']
+Home_btn: (//span[normalize-space()='Home'])[1]

@@ -1,0 +1,29 @@
+---
+Account_Information:
+  Heading_txt: //b[normalize-space()='Enter Account Information']
+  radio:
+    Mr: (//input[@name='title'])[1]
+    Mrs: (//input[@name='title'])[2]
+  Name_txtbx: //input[@id='name']
+  Email_txtbx: //input[@id='email']
+  Password_txtbx: //input[@id='password']
+  Date_Of_Birth_ddbx:
+    Day: name:days
+    Month: name:months
+    Year: name:years
+  Sign_up_for_our_newsletter_chkbx: //input[@id='newsletter']
+  Receive_special_offers_from_our_partners: //input[@id='optin']
+
+Address_Information:
+  First_Name_txtbx: //input[@id='first_name']
+  Last_Name_txtbx: //input[@id='last_name']
+  Company_txtbx: //input[@id='company']
+  Address_txtbx: //input[@id='address1']
+  Address2_txtbx: //input[@id='address2']
+  Country_ddl: name:country
+  State_txtbx: //input[@id='state']
+  City_txtbx: //input[@id='city']
+  Zipcode_txtbx: //input[@id='zipcode']
+  Mobile_txtbx: //input[@id='mobile_number']
+
+Create_Account_btn: //button[normalize-space()='Create Account']

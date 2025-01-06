@@ -1,0 +1,16 @@
+---
+Navigation_bar:
+  Home_lnk: //a[normalize-space()='Home']
+  Products_lnk:  //a[@href='/products']
+  Cart_lnk: //a[normalize-space()='Cart']
+  SignUp_Login_lnk: (//a[normalize-space()='Signup / Login'])[1]
+  DeleteAccount_lnk: //a[normalize-space()='Delete Account']
+  Logout_lnk: //a[normalize-space()='Logout']
+  UserName_lnk: //ul[@class='nav navbar-nav']/li/a/b
+  Category_txt: //h2[normalize-space()='Category']
+  ContactUs_lnk: //a[normalize-space()='Contact us']
+  TestCases_lnk: (//a[normalize-space()='Test Cases'])[1]
+Footer:
+  Subscription_txt: //div[@class='single-widget']/h2
+  EmailAddress_txtbx: //input[@id='susbscribe_email']
+  ArrowButton_btn: //button[@id='subscribe']

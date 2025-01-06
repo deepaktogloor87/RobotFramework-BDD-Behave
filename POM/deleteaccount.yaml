@@ -1,0 +1,3 @@
+---
+AccountDeleted_txt: //b[normalize-space()='Account Deleted!']
+Continue_btn: //a[normalize-space()='Continue']

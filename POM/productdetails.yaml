@@ -1,0 +1,7 @@
+---
+productName_txt: //*[@class='product-information']/h2
+productCategory_txt: //*[@class='product-information']/p
+productPrice_txt: //*[@class='product-information']/span/span
+productAvailability_txt: (//*[@class='product-information']/p)[2]
+productCondition_txt: (//*[@class='product-information']/p)[3]
+productBrand_txt: (//*[@class='product-information']/p)[4]
