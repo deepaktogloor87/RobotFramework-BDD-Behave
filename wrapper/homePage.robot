@@ -53,3 +53,9 @@ Enter email address in input and click arrow button
 
 Verify success message 'You have been successfully subscribed!' is visible
     Key Verify Expected Text Is Visible    You have been successfully subscribed!
+
+Launch Browser and Land on Homepage
+    Launch browser
+    Navigate to url 'http://automationexercise.com'
+    Verify that home page is visible successfully
+    Click on 'Signup / Login' button

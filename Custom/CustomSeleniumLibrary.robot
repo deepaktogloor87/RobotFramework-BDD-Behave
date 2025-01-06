@@ -5,7 +5,12 @@ Library    String
 *** Keywords ***
 Key Launch Browser
     [Arguments]     ${BROWSER}
-    open browser    ${NONE}      ${BROWSER}
+     ${options}    Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys, selenium.webdriver
+    Call Method    ${options}    add_argument    --headless
+    Call Method    ${options}    add_argument    --disable-gpu
+#    ${options}    Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys, selenium.webdriver
+#    Call Method    ${options}    add_argument    --incognito
+    open browser    ${NONE}      ${BROWSER}     options=${options}
     maximize browser window
     delete all cookies
 
