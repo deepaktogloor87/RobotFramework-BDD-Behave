@@ -5,7 +5,7 @@ Library    OperatingSystem
 
 *** Variables ***
 ${CONTACTUS_YAML_FILE}    ./POM/contact_us.yaml
-${log_file_path}        C:/Users/Deepak/Desktop/RobotFrameworkPOM/Reports/log.html
+${log_file_path}        C:/Users/Deepak/Desktop/RobotFramework-BDD-Behave/Reports/log.html
 
 *** Keywords ***
 Initialization ContactUsPage Variables
